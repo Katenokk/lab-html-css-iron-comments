@@ -2,10 +2,39 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;  
+    background: rgb(25, 33, 41);
+    color:  rgb(255,255,255); 
 
 }
 
 #form-container {
     margin: auto;
+    width: 218px;
+    border: 1px rgb(67, 163, 230) solid;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+input[type="text"], input[type="email"], label, textarea {
+    display: block;
+    width: 80%;
+}
+
+#form-container > *{
+    margin-bottom: 5px;
+    
+
+}
+
+button {
+    background: rgb(114, 148, 241);
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: rgb(243, 233, 233);
+
+}
+
+label[for="updates"] {
+    font-style: italic;
 }
