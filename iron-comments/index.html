@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title> Iron Comments </title>
-    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+        </style>
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
 
     <form action= "#" method="post" id="form-container">
         <label for="name">Name:</label>
-        <input id="name" type="text"> 
+        <input id="name" type="text" required> 
         <label for="email">Email:</label>
-        <input id="email" type="email"> 
+        <input id="email" type="email" required> 
         <label for="comment">Comment:</label>
         <textarea id="comment" name="comment" rows="10" cols="25"></textarea>
         <label for="updates">Receive email updates?
